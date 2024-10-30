@@ -1,0 +1,20 @@
+#Libraries and Setup for Kali Linux#
+Scapy:
+
+Purpose: Scapy is pre-installed on Kali Linux and provides extensive packet capturing, parsing, and manipulation capabilities.
+
+
+#Installation# 
+(sudo apt update)
+(sudo apt install python3-scapy)
+
+
+#Running the Code on Kali Linux#
+Save the code in a Python file, 
+                  for example, (network_sniffer_kali.py)
+
+#Run the script with root privileges because raw sockets require administrative access on Linux#
+
+(sudo python3 network_sniffer_kali.py)
+
+
